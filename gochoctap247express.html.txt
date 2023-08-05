@@ -1,0 +1,16 @@
+Microsoft Windows [Version 10.0.22621.1992]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\nguye>C:\Users\nguye\OneDrive\Máy tính\random_links
+'C:\Users\nguye\OneDrive\Máy' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\nguye>\OneDrive\Máy tính\random_links
+'\OneDrive\Máy' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\nguye>\OneDrive\Máy tính\random_links
+'\OneDrive\Máy' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\nguye>
