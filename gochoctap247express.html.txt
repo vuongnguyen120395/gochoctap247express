@@ -1,16 +1,35 @@
-Microsoft Windows [Version 10.0.22621.1992]
-(c) Microsoft Corporation. All rights reserved.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Link Redirect</title>
+    <script>
+        // Danh sách các link bạn muốn chuyển hướng ngẫu nhiên
+        const links = [
+            "https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrtWrKsKxTiL0Fo7U8JM38qnN2yG8DuafO2c6_BCpxXfPBeIajPlkFziLWtwuf2a8gb7ubVbnPSHbcrcCw6rTcVyGvcu5u8SFdBLkgkvy6ACOR2hHHSeAI6plqNM3xpYx83cxDGapKbMEpQxUw7Y5fUQ",
+            "https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrroZ6XQvLYq-Nq9HuvJqdi3TyGlSUwb9kdlAft8KJkAtIssBqlA0YoCe9yjmllr-W3AXiSvGoQZstHomPJ5rSp384KG80en18eaRDBXz_nWWyzEugcIhtdq2grHW_ECmYJENb5c3ZD1qCxLPHcQBSVY",
+            "https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrq88QwXy6cXv32rwkZW2g0edxQUWPRt8vI4f4lAa0aw19l81c8eII7IUvTCThGZVOPYxPzq2rIJt92s5OSr8pDocjfNSAT8XMqLrjSjTroQL7qlH9KwAdx9EpDm334xrhRavHyuzR-khG7SMXd3uZVM",
+            "https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrj35dmcQBcjOaf-wLixYqdSCqXqXkNWqgU6CfBSTshYF2_H8eCb1Fg6p9BPIbJnWVnV72c1gbhDEg1XWqcxnYHl17jfd5MEtuSb__62CkIMu8pw_jTU-2x_nhwAPfr18RlUbZst9NrHXGwc84pHrPL8",
+            "https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrmqNU3tzvlwKqR9wucho6Z9hDX8EkcDzpI9J7mQQpbvDqbf7h2FEt-dbyoHZEiZDE3DbPAm7nCKRiHYUp_ULz2x9QknIYV04G9lwUwgf0qryZ8VSbWBjbT3ZQ8nlb-a7J35osl5q700pZJfuCYvmXC8"
+        ];
 
-C:\Users\nguye>C:\Users\nguye\OneDrive\Máy tính\random_links
-'C:\Users\nguye\OneDrive\Máy' is not recognized as an internal or external command,
-operable program or batch file.
+        // Hàm chuyển hướng ngẫu nhiên
+        function redirectToRandomLink() {
+            const randomIndex = Math.floor(Math.random() * links.length);
+            window.location.href = links[randomIndex];
+        }
 
-C:\Users\nguye>\OneDrive\Máy tính\random_links
-'\OneDrive\Máy' is not recognized as an internal or external command,
-operable program or batch file.
-
-C:\Users\nguye>\OneDrive\Máy tính\random_links
-'\OneDrive\Máy' is not recognized as an internal or external command,
-operable program or batch file.
-
-C:\Users\nguye>
+        // Chuyển hướng ngay khi trang được tải
+        window.onload = redirectToRandomLink;
+    </script>
+</head>
+<body>
+    <p>Đang chuyển hướng đến một trong năm link sau:</p>
+    <ul>
+        <li><a href="https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrtWrKsKxTiL0Fo7U8JM38qnN2yG8DuafO2c6_BCpxXfPBeIajPlkFziLWtwuf2a8gb7ubVbnPSHbcrcCw6rTcVyGvcu5u8SFdBLkgkvy6ACOR2hHHSeAI6plqNM3xpYx83cxDGapKbMEpQxUw7Y5fUQ">Link 1</a></li>
+        <li><a href="https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrroZ6XQvLYq-Nq9HuvJqdi3TyGlSUwb9kdlAft8KJkAtIssBqlA0YoCe9yjmllr-W3AXiSvGoQZstHomPJ5rSp384KG80en18eaRDBXz_nWWyzEugcIhtdq2grHW_ECmYJENb5c3ZD1qCxLPHcQBSVY">Link 2</a></li>
+        <li><a href="https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrq88QwXy6cXv32rwkZW2g0edxQUWPRt8vI4f4lAa0aw19l81c8eII7IUvTCThGZVOPYxPzq2rIJt92s5OSr8pDocjfNSAT8XMqLrjSjTroQL7qlH9KwAdx9EpDm334xrhRavHyuzR-khG7SMXd3uZVM">Link 3</a></li>
+        <li><a href="https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrj35dmcQBcjOaf-wLixYqdSCqXqXkNWqgU6CfBSTshYF2_H8eCb1Fg6p9BPIbJnWVnV72c1gbhDEg1XWqcxnYHl17jfd5MEtuSb__62CkIMu8pw_jTU-2x_nhwAPfr18RlUbZst9NrHXGwc84pHrPL8">Link 4</a></li>
+        <li><a href="https://test.base.vn/public/yqmUc1cf0v6JHAlnKJhtrmqNU3tzvlwKqR9wucho6Z9hDX8EkcDzpI9J7mQQpbvDqbf7h2FEt-dbyoHZEiZDE3DbPAm7nCKRiHYUp_ULz2x9QknIYV04G9lwUwgf0qryZ8VSbWBjbT3ZQ8nlb-a7J35osl5q700pZJfuCYvmXC8">Link 5</a></li>
+    </ul>
+</body>
+</html>
